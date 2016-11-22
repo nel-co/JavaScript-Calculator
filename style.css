@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+/*  -- Variables  --  */
+html, body {
+  height: 100%;
+  background: #e93838;
+  background: radial-gradient(#f74519, #e93838);
+  background: -webkit-radial-gradient(#f74519, #e93838);
+  background: -o-radial-gradient(#f74519, #e93838);
+  background: -moz-radial-gradient(#f74519, #e93838); }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
+  color: #2c2c2c; }
+
+.container {
+  background: white;
+  width: 280px;
+  height: 400px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
+
+.row {
+  display: flex; }
+
+.result {
+  width: 280px;
+  height: 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  font-family: 'VT323'; }
+
+.problem {
+  display: flex;
+  justify-content: flex-end;
+  color: #848484;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-right: 20px; }
+
+.solved {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 72px;
+  padding-right: 20px;
+  margin-top: -10px;
+	letter-spacing: -2px; }
+
+.btn {
+  cursor: pointer;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  flex-grow: 1; }
+
+.space {
+  cursor: default; }
+
+.grey {
+  color: #848484; }
+
+#divide {
+  color: #f74519; }
+
+#multiply {
+  color: #f77d19; }
+
+#subtract {
+  color: #e93838; }
+
+#add {
+  color: #e0a416; }
+
+#equal {
+  color: #6b2845; }
+
+/*# sourceMappingURL=style.css.map */
